@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/4a4acd00-9106-4c0a-ad72-4eb55b62a8e4
 
 ![WhatsApp Image 2024-10-16 at 16 26 29_58158e6a](https://github.com/user-attachments/assets/975d700e-bc50-4155-9c4e-6e55d70faa86)
 
-Hasil output terdiri dari dua bagian utama: visualisasi grafis permainan "Robot Grid World" menggunakan Pygame dan representasi tekstual posisi robot di terminal.
+Hasil output terdiri dari dua bagian utama: Visualisasi grafis permainan "Robot Grid World" menggunakan Pygame dan representasi tekstual posisi robot di terminal.
 Pada visualisasi, Robot bergerak mengikuti kebijakan optimal dari algoritma Policy Iteration.
 Di bagian terminal, grid ditampilkan dalam format teks yang menunjukkan posisi robot (R), dinding (#), tujuan (G), dan ruang kosong (.). Setiap langkah memperlihatkan pergerakan robot menuju tujuan, dan ketika robot mencapai sel tujuan, terminal mencetak pesan "Goal reached!", menandakan bahwa simulasi telah berhasil.
 
