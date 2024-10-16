@@ -46,7 +46,7 @@ Hasil output terdiri dari dua bagian utama: visualisasi grafis permainan "Robot 
 Pada visualisasi, Robot bergerak mengikuti kebijakan optimal dari algoritma Policy Iteration.
 Di bagian terminal, grid ditampilkan dalam format teks yang menunjukkan posisi robot (R), dinding (#), tujuan (G), dan ruang kosong (.). Setiap langkah memperlihatkan pergerakan robot menuju tujuan, dan ketika robot mencapai sel tujuan, terminal mencetak pesan "Goal reached!", menandakan bahwa simulasi telah berhasil.
 
-Rumus :
+Rumus : <br>
 ![image](https://github.com/user-attachments/assets/b41ee12f-912f-4fba-b12b-3ce4d86d5db1)
 
 Persamaan Bellman diterapkan ketika memperbarui nilai dari setiap keadaan berdasarkan reward yang diterima dan nilai diskonto dari keadaan berikutnya. V[x, y] diperbarui dengan formula: reward + gamma * V[next_state[0], next_state[1]], di mana reward adalah nilai imbalan untuk mencapai keadaan berikutnya, dan V[next_state[0], next_state[1]] adalah nilai dari keadaan berikutnya tersebut. gamma adalah faktor diskonto yang mengontrol seberapa jauh nilai keadaan masa depan memengaruhi nilai keadaan saat ini. Proses ini terus berjalan sampai perubahan dalam nilai (delta) lebih kecil dari nilai ambang batas theta, yang menunjukkan bahwa fungsi nilai telah konvergen.
@@ -64,7 +64,7 @@ https://github.com/user-attachments/assets/d1f623a8-a86a-4ef0-8531-dff2b1bc2b36
 Output di atas menampilkan permainan Grid World yang menerapkan konsep Q-function dan Value Iteration. Agen ditandai dengan warna merah, posisi awal dengan warna hijau, dan tujuan dengan warna biru. Sel abu-abu mewakili penghalang dan penalti, sedangkan sel putih adalah ruang kosong yang dapat dilalui.
 Grafik menunjukkan agen yang berhasil mencapai tujuan, ditandai dengan catatan "Goal reached!" yang mencerminkan efektivitas algoritma. Sementara itu, output terminal mencetak status grid di setiap langkah, di mana nilai Q diperbarui berdasarkan tindakan yang diambil. Q-function mengevaluasi nilai tindakan untuk memaksimalkan reward, sedangkan Value Iteration menghitung nilai optimal melalui iterasi berulang, memungkinkan agen merencanakan jalur terbaik.
 
-Rumus :
+Rumus : <br>
 ![image](https://github.com/user-attachments/assets/59b26028-0181-4c49-9129-b08c44cd4d8c)
 
 R : Reward dari state saat ini <br>
