@@ -50,7 +50,7 @@ Berdasarkan penerapan tiga algoritma pada game Grid World—Markov Decision Proc
 MDP efektif dalam situasi ketidakpastian dengan transisi stokastik, tetapi lebih lambat karena banyaknya probabilitas yang harus dihitung. Policy Iteration dengan Bellman Equation menawarkan stabilitas dan efisiensi yang lebih baik, fokus pada perbaikan kebijakan tanpa memperhitungkan probabilitas stokastik. Sementara itu, Q-function Value Iteration menggabungkan Value Iteration dan Q-learning, memungkinkan pembaruan nilai Q berdasarkan reward dan nilai state berikutnya, dengan konvergensi lebih cepat.
 Oleh karena itu, Q-function Value Iteration direkomendasikan sebagai algoritma paling efektif untuk game Grid World.
 
-## 📚 CARA RUN GAME
+## 📚 REFERENSI
 - https://github.com/brianspiering/rl-course/tree/cca8cc7ded9f40ba3860a53282a5f44a01f38d1a/02_policy__value_iteration
   
 ## 📖 CARA RUN GAME
