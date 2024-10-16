@@ -1,4 +1,4 @@
-# 🎮 Reinforcement-Learning KELOMPOK 3
+# 🎮 Reinforcement-Learning Kelompok 3
 1. RIMAYA DWI ATIKA (G1A021021)
 2. MUHAMAD RIFQI AFRIANSYAH (G1A021023)
 3. ILHAM DIO PUTRA (G1A021024)
@@ -20,7 +20,11 @@ Game ini memperlihatkan grid berukuran 5x5, di mana:
 
 ## 🕹️ Penerapan Algoritma MARKOV DECISION PROCESS
 
-![Video Game Cover](link_to_image)
+Video Game
+
+https://github.com/user-attachments/assets/b1f25899-593a-4d45-8bfe-af1565c132c3
+
+
 
 ![image](https://github.com/user-attachments/assets/c135001f-0224-4c50-8979-a317c385bfbc)
 
@@ -28,7 +32,13 @@ Hasil output menampilkan dua bagian utama: jendela game dan terminal.
 Di terminal, tercetak log pergerakan pemain, seperti "Player moves up to position [3, 2]", yang menunjukkan koordinat tujuan. AI menggunakan pendekatan Markov Decision Process (MDP) untuk memilih aksi terbaik dan meminimalkan jarak pemain ke tujuan menggunakan jarak Manhattan. Setelah mencapai tujuan di (0, 4), terminal menampilkan pesan "Goal reached!", menandakan bahwa permainan telah selesai.
 
 ## 🎯 Penerapan Algoritma POLICY BELLMAN EQUATION
-![Video Game Cover](link_to_image)
+Video Game 
+
+https://github.com/user-attachments/assets/4a4acd00-9106-4c0a-ad72-4eb55b62a8e4
+
+
+
+
 
 ![WhatsApp Image 2024-10-16 at 16 26 29_58158e6a](https://github.com/user-attachments/assets/975d700e-bc50-4155-9c4e-6e55d70faa86)
 
@@ -43,7 +53,11 @@ Persamaan Bellman diterapkan ketika memperbarui nilai dari setiap keadaan berdas
 
 
 ## 💡 Penerapan Algoritma Q-FUNCTION VALUE ITERATION
-![Video Game Cover](link_to_image)
+Video Game
+
+https://github.com/user-attachments/assets/d1f623a8-a86a-4ef0-8531-dff2b1bc2b36
+
+
 
 ![image](https://github.com/user-attachments/assets/ea77db5a-a579-4594-9e69-7684c43e8ce8)
 
@@ -53,9 +67,9 @@ Grafik menunjukkan agen yang berhasil mencapai tujuan, ditandai dengan catatan "
 Rumus :
 ![image](https://github.com/user-attachments/assets/59b26028-0181-4c49-9129-b08c44cd4d8c)
 
-R : Reward dari state saat ini
-γ : Faktor diskonto (discount factor)
-s′ : Keadaan berikutnya yang dicapai berdasarkan kebijakan saat ini.
+R : Reward dari state saat ini <br>
+γ : Faktor diskonto (discount factor) <br>
+s′ : Keadaan berikutnya yang dicapai berdasarkan kebijakan saat ini. <br>
 Rumus ini menciptakan hubungan antara reward yang diterima dan potensi nilai jangka panjang dari melakukan aksi tersebut. Konsep ini berfokus pada pembelajaran seberapa baiknya suatu tindakan dalam memaksimalkan reward seiring waktu, sehingga agent dapat belajar untuk memilih aksi terbaik di setiap state dalam proses pengambilan keputusan. Dengan memanfaatkan kedua teknik ini, Value Iteration untuk memperkirakan nilai state dan Q-Learning untuk memperbaharui Q-Function agent dapat mengembangkan strategi yang optimal untuk mencapai tujuan tertentu di grid.
 
 ## ⭐ Kesimpulan
@@ -70,9 +84,20 @@ Oleh karena itu, Q-function Value Iteration direkomendasikan sebagai algoritma p
 ```bash
 # Clone repository
 git clone https://github.com/[username]/[repository].git
+```
 
+```bash
 # Buka folder pada Visual Studio Code, di terminal
 pip install pygame
-
+```
+```bash
 # Jalankan game
-python namafile.py
+# Markov Decision Process (MDP)
+python markov_decision_process.py
+
+# Policy Bellman Equation
+python policy_bellman_game.py
+
+# Q Function Value Iteration
+python q_function_value_iteration.py
+```
